@@ -8,6 +8,8 @@ go get -u github.com/hakkasuru/slog
 
 # Quick Start
 ```go
+import "fmt"
+
 config := slog.NewConfig(
     "<webhook url>",
     "ExampleApplication",
